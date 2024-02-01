@@ -10,6 +10,8 @@ jobs:
       - uses: actions/checkout@v2.3.4
       - name: ZAP API Scan
         uses: zaproxy/action-api-scan@v0.6.0
+        env:
+          ZAP_AUTH_HEADER_VALUE: 'Basic YWRtaW46MTIzNDU2'
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'ghcr.io/zaproxy/zaproxy:stable'
