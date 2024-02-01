@@ -7,6 +7,6 @@ jobs:
     name: Scan ZAP website
     steps:
       - name: ZAP Scan
-        uses: zaproxy/[email protected]
+        uses: zaproxy/action-baseline@v0.11.0
         with:
           target: 'http://aspnet.testsparker.com/'
