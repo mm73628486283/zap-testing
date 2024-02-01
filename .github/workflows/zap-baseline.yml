@@ -1,3 +1,5 @@
+name: zap-baseline
+
 on:
   workflow_dispatch:
 
