@@ -3,7 +3,6 @@ on:
 
 jobs:
   zap_scan:
-    runs_on: ubuntu-latest
     name: zap baseline scan testsparker
     steps:
       - name: ZAP Baseline Scan
