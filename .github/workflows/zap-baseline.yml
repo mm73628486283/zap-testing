@@ -3,7 +3,7 @@ on:
 
 jobs:
   zap_scan:
-    name: zap baseline scan testsparker
+    runs-on: ubuntu-latest
     steps:
       - name: ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.11.0
